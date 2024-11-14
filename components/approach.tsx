@@ -10,7 +10,7 @@ export const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      Optimized Approach for <span className="text-purple">Successful Projects</span>
       </h1>
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
@@ -28,7 +28,7 @@ export const Approach = () => {
         <Card
           title="Deployment & Progress Update"
           icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="Once the plan is set, I jump into development, bringing your vision to life with precision and creativity. Throughout the process, I’ll provide you with regular progress updates, ensuring transparency and keeping you informed on every milestone—from initial concepts to the final launch."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,7 +44,7 @@ export const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="I’ll transform your design into a fully functional, responsive website and mobile app, ensuring seamless navigation and an exceptional user experience across all devices. With a focus on both performance and aesthetics, I’ll deliver a high-quality product ready for launch, optimized for both speed and user engagement."
         >
           <CanvasRevealEffect
             animationSpeed={3}
