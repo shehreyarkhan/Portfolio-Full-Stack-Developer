@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const links = {
-  sourceCode: "https://github.com/sanidhyy/next-portfolio",
+  sourceCode: "https://github.com/shehreyarkhan/Portfolio-Full-Stack-Developers",
   ownerName: "Shehreyar Khan",
   ownerEmail: "shehreyarkhann@outlook.com",
 } as const;
@@ -51,6 +51,6 @@ export const siteConfig: Metadata = {
   ] as Array<string>,
   authors: {
     name: links.ownerName,
-    url: "https://github.com/sanidhyy",
+    url: "https://github.com/shehreyarkhan",
   },
 } as const;
