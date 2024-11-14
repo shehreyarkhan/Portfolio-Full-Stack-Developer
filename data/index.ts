@@ -174,31 +174,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "JavaScript Developer Intern",
+    desc: "Contributed to the development of a Web3-based NFT marketplace platform using React.js, Node.js, Moralis.io, and Solidity, implementing features such as buy, sell, transfer, auction, Metamask integration, marketplace, and user profiles.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Full Stack Developer",
+    desc: "As a Full Stack Developer at Zama School EdTech Private Ltd, I contributed to the development of an EdTech application by building the website, enhancing the Learning Management System (LMS), and creating RESTful APIs. I also played a key role in developing and integrating features for the Android mobile app, ensuring a seamless user experience across both web and mobile platforms.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Digital Design for Global Clients",
+    desc: "Transforming digital visions for offshore companies with creative designs using Adobe, Figma, video editing, and WordPress—delivering seamless, standout experiences.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Area Specific Colleague (ASC)",
+    desc: "At Macy's Inc, committed to delivering top-tier customer experiences and boosting sales. Skilled in merchandising to create engaging displays that drive customer interest and maximize revenue.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ] as const;
 
@@ -206,7 +206,7 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/shehreyarkhan",
   },
   {
     name: "Twitter",
@@ -216,11 +216,11 @@ export const socialMedia = [
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/shehreyarkhann",
   },
 ] as const;
 
 export const techStack = {
-  stack1: ["React.js", "Next.js", "Typescript"],
-  stack2: ["Vue.js", "AWS", "MongoDB"],
+  stack1: ["React.js", "Next.js", "Typescript", "Redux","ShadCn"],
+  stack2: ["Node.js", "Express.js", "AWS", "MySQL", "MongoDB"],
 } as const;

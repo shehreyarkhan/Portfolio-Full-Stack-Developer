@@ -131,8 +131,8 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="absolute -right-3 flex w-fit gap-1 lg:-right-2 lg:gap-5">
-              <div className="flex flex-col gap-3 lg:gap-8">
+            <div className="flex w-fit gap-1 lg:-left-2 lg:gap-5">
+              <div className="absolute bottom-5  flex-row gap-3 lg:gap-8">
                 {techStack.stack1.map((item) => (
                   <span
                     key={item}
@@ -142,11 +142,10 @@ export const BentoGridItem = ({
                   </span>
                 ))}
 
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
               </div>
 
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
+              <div className=" absolute top-5 flex-row gap-3 lg:gap-8">
+                <span className="rounded-lg bg-[#10132e]  py-4 text-center" />
                 {techStack.stack2.map((item) => (
                   <span
                     key={item}
